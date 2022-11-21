@@ -25,10 +25,10 @@ public class Board {
 				BoardAdd add = new BoardAdd();
 				add.execute(sc);
 				break;
-			/*case 3:
+			case 3:
 				BoardContent content = new BoardContent();
 				content.execute(sc);
-				break;*/
+				break;
 			case 4:
 				BoardDelete del = new BoardDelete();
 				del.execute(sc);
